@@ -1,0 +1,9 @@
+eclipse.preferences.version=1
+environment/project/com.android.toolchain.gcc.748248177/NDK/delimiter=;
+environment/project/com.android.toolchain.gcc.748248177/NDK/operation=replace
+environment/project/com.android.toolchain.gcc.748248177/NDK/value=D\:\\ndk\\android-ndk-r10e\\;${NDK}
+environment/project/com.android.toolchain.gcc.748248177/STL/delimiter=;
+environment/project/com.android.toolchain.gcc.748248177/STL/operation=append
+environment/project/com.android.toolchain.gcc.748248177/STL/value=D\:\\ndk\\android-ndk-r10e\\sources\\cxx-stl\\stlport\\stlport\\stl
+environment/project/com.android.toolchain.gcc.748248177/append=true
+environment/project/com.android.toolchain.gcc.748248177/appendContributed=true
