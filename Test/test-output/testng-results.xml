@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="3" total="19" passed="16">
+  <reporter-output>
+    <line>
+      <![CDATA[finished -->]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="3096676" started-at="2017-05-24T05:56:27Z" finished-at="2017-05-24T06:48:04Z">
+    <groups>
+      <group name="systemtest">
+        <method signature="Case3.test3()[pri:0, instance:TestCases.Case3@724af044]" name="test3" class="TestCases.Case3"/>
+      </group> <!-- systemtest -->
+      <group name="functiontest">
+        <method signature="Case3.test2()[pri:0, instance:TestCases.Case3@724af044]" name="test2" class="TestCases.Case3"/>
+      </group> <!-- functiontest -->
+    </groups>
+    <test name="case1" duration-ms="16206" started-at="2017-05-24T05:56:27Z" finished-at="2017-05-24T05:56:43Z">
+      <class name="TestCases.Case1">
+        <test-method status="PASS" signature="setup()[pri:0, instance:TestCases.Case1@5cc7c2a6]" name="setup" is-config="true" duration-ms="9215" started-at="2017-05-24T13:56:27Z" finished-at="2017-05-24T13:56:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="open()[pri:0, instance:TestCases.Case1@5cc7c2a6]" name="open" duration-ms="79" started-at="2017-05-24T13:56:36Z" finished-at="2017-05-24T13:56:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open -->
+        <test-method status="FAIL" signature="open1()[pri:0, instance:TestCases.Case1@5cc7c2a6]" name="open1" duration-ms="16" started-at="2017-05-24T13:56:36Z" finished-at="2017-05-24T13:56:36Z">
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[failed!]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: failed!
+	at TestCases.Case1.open1(Case1.java:48)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open1 -->
+        <test-method status="PASS" signature="open3()[pri:0, instance:TestCases.Case1@5cc7c2a6]" name="open3" duration-ms="5772" started-at="2017-05-24T13:56:36Z" finished-at="2017-05-24T13:56:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open3 -->
+        <test-method status="PASS" signature="open2()[pri:0, instance:TestCases.Case1@5cc7c2a6]" name="open2" duration-ms="0" started-at="2017-05-24T13:56:36Z" finished-at="2017-05-24T13:56:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open2 -->
+        <test-method status="PASS" signature="open4()[pri:0, instance:TestCases.Case1@5cc7c2a6]" name="open4" duration-ms="16" started-at="2017-05-24T13:56:42Z" finished-at="2017-05-24T13:56:42Z">
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[NullPoint]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: NullPoint
+	at TestCases.Case1.open4(Case1.java:80)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+            <line>
+              <![CDATA[finished -->]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- open4 -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:TestCases.Case1@5cc7c2a6]" name="quit" is-config="true" duration-ms="1093" started-at="2017-05-24T13:56:42Z" finished-at="2017-05-24T13:56:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- TestCases.Case1 -->
+    </test> <!-- case1 -->
+    <test name="case2" duration-ms="15" started-at="2017-05-24T05:56:43Z" finished-at="2017-05-24T05:56:43Z">
+      <class name="TestCases.Case2">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:TestCases.Case2@28feb3fa]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-05-24T13:56:43Z" finished-at="2017-05-24T13:56:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:TestCases.Case2@28feb3fa]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-05-24T13:56:43Z" finished-at="2017-05-24T13:56:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="f(java.lang.Integer, java.lang.String)[pri:0, instance:TestCases.Case2@28feb3fa]" name="f" duration-ms="0" started-at="2017-05-24T13:56:43Z" data-provider="dp" finished-at="2017-05-24T13:56:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCases.Case2@28feb3fa]" name="beforeClass" is-config="true" duration-ms="0" started-at="2017-05-24T13:56:43Z" finished-at="2017-05-24T13:56:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:TestCases.Case2@28feb3fa]" name="afterTest" is-config="true" duration-ms="0" started-at="2017-05-24T13:56:43Z" finished-at="2017-05-24T13:56:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestCases.Case2@28feb3fa]" name="afterClass" is-config="true" duration-ms="0" started-at="2017-05-24T13:56:43Z" finished-at="2017-05-24T13:56:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="f(java.lang.Integer, java.lang.String)[pri:0, instance:TestCases.Case2@28feb3fa]" name="f" duration-ms="0" started-at="2017-05-24T13:56:43Z" data-provider="dp" finished-at="2017-05-24T13:56:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:TestCases.Case2@28feb3fa]" name="beforeTest" is-config="true" duration-ms="0" started-at="2017-05-24T13:56:43Z" finished-at="2017-05-24T13:56:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:TestCases.Case2@28feb3fa]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-05-24T13:56:43Z" finished-at="2017-05-24T13:56:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:TestCases.Case2@28feb3fa]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-05-24T13:56:43Z" finished-at="2017-05-24T13:56:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- TestCases.Case2 -->
+    </test> <!-- case2 -->
+    <test name="case3" duration-ms="148084" started-at="2017-05-24T05:56:43Z" finished-at="2017-05-24T05:59:11Z">
+      <class name="TestCases.Case3">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:TestCases.Case3@724af044]" name="setUp" is-config="true" duration-ms="3234" started-at="2017-05-24T13:56:43Z" finished-at="2017-05-24T13:56:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="test1()[pri:0, instance:TestCases.Case3@724af044]" name="test1" duration-ms="17882" started-at="2017-05-24T13:56:47Z" finished-at="2017-05-24T13:57:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="test2()[pri:0, instance:TestCases.Case3@724af044]" name="test2" duration-ms="86197" started-at="2017-05-24T13:57:04Z" finished-at="2017-05-24T13:58:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method status="PASS" signature="test3()[pri:0, instance:TestCases.Case3@724af044]" name="test3" duration-ms="19797" started-at="2017-05-24T13:58:31Z" finished-at="2017-05-24T13:58:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method status="PASS" signature="test4()[pri:0, instance:TestCases.Case3@724af044]" name="test4" duration-ms="19912" started-at="2017-05-24T13:58:50Z" finished-at="2017-05-24T13:59:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test4 -->
+        <test-method status="PASS" signature="verifyUser(java.lang.String, java.lang.String)[pri:0, instance:TestCases.Case3@724af044]" name="verifyUser" duration-ms="0" started-at="2017-05-24T13:59:10Z" data-provider="user" finished-at="2017-05-24T13:59:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[root]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[passowrd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUser -->
+        <test-method status="FAIL" signature="test5()[pri:0, instance:TestCases.Case3@724af044]" name="test5" duration-ms="0" started-at="2017-05-24T13:59:10Z" finished-at="2017-05-24T13:59:10Z">
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[fail....]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: fail....
+	at TestCases.Case3.test5(Case3.java:150)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test5 -->
+        <test-method status="PASS" signature="verifyUser(java.lang.String, java.lang.String)[pri:0, instance:TestCases.Case3@724af044]" name="verifyUser" duration-ms="0" started-at="2017-05-24T13:59:10Z" data-provider="user" finished-at="2017-05-24T13:59:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[cnblogs.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[tankxiao]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUser -->
+        <test-method status="PASS" signature="test6(java.lang.String)[pri:0, instance:TestCases.Case3@724af044]" name="test6" duration-ms="0" started-at="2017-05-24T13:59:10Z" finished-at="2017-05-24T13:59:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Tank]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test6 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestCases.Case3@724af044]" name="tearDown" is-config="true" duration-ms="1047" started-at="2017-05-24T13:59:10Z" finished-at="2017-05-24T13:59:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="verifyUser(java.lang.String, java.lang.String)[pri:0, instance:TestCases.Case3@724af044]" name="verifyUser" duration-ms="0" started-at="2017-05-24T13:59:10Z" data-provider="user" finished-at="2017-05-24T13:59:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tank]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[xiao]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUser -->
+      </class> <!-- TestCases.Case3 -->
+    </test> <!-- case3 -->
+    <test name="case4" duration-ms="2903600" started-at="2017-05-24T05:59:11Z" finished-at="2017-05-24T06:47:35Z">
+      <class name="TestCases.Case4">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCases.Case4@14acaea5]" name="beforeClass" is-config="true" duration-ms="4169" started-at="2017-05-24T13:59:11Z" finished-at="2017-05-24T13:59:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="f()[pri:0, instance:TestCases.Case4@14acaea5]" name="f" duration-ms="2898250" started-at="2017-05-24T13:59:16Z" finished-at="2017-05-24T14:47:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestCases.Case4@14acaea5]" name="afterClass" is-config="true" duration-ms="1179" started-at="2017-05-24T14:47:34Z" finished-at="2017-05-24T14:47:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- TestCases.Case4 -->
+    </test> <!-- case4 -->
+    <test name="case5" duration-ms="28680" started-at="2017-05-24T06:47:35Z" finished-at="2017-05-24T06:48:04Z">
+      <class name="TestCases.Case2">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:TestCases.Case2@28feb3fa]" name="beforeSuite" is-config="true" duration-ms="16" started-at="2017-05-24T13:56:27Z" finished-at="2017-05-24T13:56:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:TestCases.Case2@28feb3fa]" name="afterSuite" is-config="true" duration-ms="0" started-at="2017-05-24T14:48:04Z" finished-at="2017-05-24T14:48:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- TestCases.Case2 -->
+      <class name="TestCases.Case5">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestCases.Case5@29774679]" name="beforeClass" is-config="true" duration-ms="5064" started-at="2017-05-24T14:47:35Z" finished-at="2017-05-24T14:47:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="Demo3()[pri:0, instance:TestCases.Case5@29774679]" name="Demo3" duration-ms="2" started-at="2017-05-24T14:47:40Z" finished-at="2017-05-24T14:47:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo3 -->
+        <test-method status="FAIL" signature="f()[pri:0, instance:TestCases.Case5@29774679]" name="f" duration-ms="3545" started-at="2017-05-24T14:47:59Z" finished-at="2017-05-24T14:48:03Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [10] but found [12]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [10] but found [12]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:176)
+	at org.testng.Assert.assertEquals(Assert.java:186)
+	at TestCases.Case5.f(Case5.java:32)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.retryFailed(Invoker.java:1049)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1254)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestCases.Case5@29774679]" name="afterClass" is-config="true" duration-ms="1140" started-at="2017-05-24T14:48:03Z" finished-at="2017-05-24T14:48:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- TestCases.Case5 -->
+    </test> <!-- case5 -->
+  </suite> <!-- Suite -->
+</testng-results>

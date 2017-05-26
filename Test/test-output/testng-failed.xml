@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <parameter name="test1" value="Tank"/>
+  <test name="case1(failed)">
+    <classes>
+      <class name="TestCases.Case1">
+        <methods>
+          <include name="open1"/>
+          <include name="setup"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- TestCases.Case1 -->
+      <class name="TestCases.Case2">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="afterClass"/>
+          <include name="beforeClass"/>
+          <include name="beforeSuite"/>
+          <include name="afterMethod"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- TestCases.Case2 -->
+      <class name="TestCases.Case4">
+        <methods>
+          <include name="afterClass"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- TestCases.Case4 -->
+      <class name="TestCases.Case3">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- TestCases.Case3 -->
+      <class name="TestCases.Case5">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- TestCases.Case5 -->
+    </classes>
+  </test> <!-- case1(failed) -->
+  <test name="case3(failed)">
+    <classes>
+      <class name="TestCases.Case1">
+        <methods>
+          <include name="setup"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- TestCases.Case1 -->
+      <class name="TestCases.Case2">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="afterClass"/>
+          <include name="beforeClass"/>
+          <include name="beforeSuite"/>
+          <include name="afterMethod"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- TestCases.Case2 -->
+      <class name="TestCases.Case4">
+        <methods>
+          <include name="afterClass"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- TestCases.Case4 -->
+      <class name="TestCases.Case3">
+        <methods>
+          <include name="test5"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- TestCases.Case3 -->
+      <class name="TestCases.Case5">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- TestCases.Case5 -->
+    </classes>
+  </test> <!-- case3(failed) -->
+  <test name="case5(failed)">
+    <classes>
+      <class name="TestCases.Case1">
+        <methods>
+          <include name="setup"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- TestCases.Case1 -->
+      <class name="TestCases.Case2">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="afterClass"/>
+          <include name="beforeClass"/>
+          <include name="beforeSuite"/>
+          <include name="afterMethod"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- TestCases.Case2 -->
+      <class name="TestCases.Case4">
+        <methods>
+          <include name="afterClass"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- TestCases.Case4 -->
+      <class name="TestCases.Case3">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- TestCases.Case3 -->
+      <class name="TestCases.Case5">
+        <methods>
+          <include name="f"/>
+          <include name="beforeClass"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- TestCases.Case5 -->
+    </classes>
+  </test> <!-- case5(failed) -->
+</suite> <!-- Failed suite [Suite] -->

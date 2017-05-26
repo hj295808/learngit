@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+	 <parameter name="test1" value="Tank" />
+	<!--  <listeners>
+        <listener class-name="TestCases.TestNGListener" />
+        <listener class-name="TestCases.RetryListener" />
+    </listeners> -->
+	<test name="case1" verbose="2">
+		<classes>
+			<class name="TestCases.Case1" />
+		</classes>
+
+	</test> 
+	<test name="case2" verbose="2">
+		<classes>
+			<class name="TestCases.Case2" />
+		</classes>
+
+	</test> 
+	<test name="case3" verbose="2">
+		<classes>
+			<class name="TestCases.Case3" />
+		</classes>
+
+	</test>
+	<test name="case4" verbose="2">
+		<classes>
+			<class name="TestCases.Case4" />
+		</classes>
+
+	</test>
+	<test name="case5" verbose="2">
+		<classes>
+			<class name="TestCases.Case5" />
+		</classes>
+
+	</test>
+	<!-- Test -->
+</suite> <!-- Suite -->
